@@ -1,0 +1,9 @@
+В своей базе создать и заполнить таблицу DepartmentEmployees, которая содержит следующие колонки
+1. DepartmentName. Название отдела. Заполняется значениями из таблицы AdventureWorks2008R2.HumanResources.Department, колонка Name.
+2. Employees. Список всех работников отдела(фамилия и имя через пробел) через запятую в алфавитном порядке. 
+   Данные брать из таблиц HumanResources.Employee, HumanResources.EmployeeDepartmentHistory, Person.Person базы AdventureWorks2008R2
+
+Задачу решить двумя способами
+1) использовать UDF
+2) использовать FOR XML PATH
+
